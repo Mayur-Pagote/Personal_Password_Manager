@@ -66,7 +66,7 @@ def delete_userdata():
 def main():
     #This statement will take input as a username and password in order to execute the program further.
     login_info = easygui.multpasswordbox("Enter login credentials", "Login", ["Username", "Password"])
-    if not login_info or login_info[0] != "MayurPagote" or login_info[1] != "Mayx123":
+    if not login_info or login_info[0] != "MayurPagote" or login_info[1] != "MagicPassword":
         easygui.msgbox("Wrong username or password", "Error")
         return
     
